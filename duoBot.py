@@ -114,28 +114,7 @@ class duoBot():
 # swan = duoBot()
 # print(swan.getCookies())
 # paste output into dict below:
-cookies = {
-    'lang': 'en', 
-    'wuuid': '209e7da5-13e2-451e-90d7-9b83ddad787a', 
-    'tsl': '1747500291938', 
-    'lu': 'https://www.duolingo.com/?isLoggingIn=true', 
-    'initial_referrer': '$direct', 
-    'lp': 'splash', 
-    'OptanonAlertBoxClosed': '2025-05-17T16:44:53.755Z', 
-    'OptanonConsent': 'isGpcEnabled=0&datestamp=Sat+May+17+2025+17%3A44%3A53+GMT%2B0100+(British+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=26637eba-0e4b-49a3-8ce4-8ea6f336c761&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1', 
-    '_gcl_au': '1.1.205351273.1747500294', 
-    '_ga': 'GA1.2.1156204044.1747500294', 
-    '_gid': 'GA1.2.780433111.1747500294', 
-    '_gat_UA-21595814-1': '1', 
-    'lr': '', 
-    'jwt_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjYzMDcyMDAwMDAsImlhdCI6MCwic3ViIjoxMDI3MzIyMDY1fQ.jV2RFEgG52pYBsdMPNQ18ibdaGLEfFylw8VnScWW73I', 
-    'csrf_token': 'ImEyNzE4ZjIzODk5NzRkYzhiZWU3MmIwYjU5YWY4OGE5Ig==', 
-    'logged_out_uuid': '1027322065', 
-    'logged_in': 'true', 
-    '_fbp': 'fb.1.1747500294151.95278817556247069', 
-    'AWSALB': 'acP/nNzyQz57kQNwW1sfNtISs5RAvsEK9mHe0BffjASCzn9tx5J37Bw0OnmCkObdQHDkc6Snb7+Dp7fi6phKqJ7JA51yCrYRhsZ1FNsCKIzb8NSqsZJ1eiYKUal2', 
-    'AWSALBCORS': 'acP/nNzyQz57kQNwW1sfNtISs5RAvsEK9mHe0BffjASCzn9tx5J37Bw0OnmCkObdQHDkc6Snb7+Dp7fi6phKqJ7JA51yCrYRhsZ1FNsCKIzb8NSqsZJ1eiYKUal2', 
-    '_ga_CSFDVCPQ4F': 'GS2.1.s1747500293$o1$g1$t1747500310$j43$l0$h0$dalfBShCwgFC6CFwMJf1bSd5COXe21rximQ'}
+cookies = {}
 print("Cookies secured")
 duck = duoBot()
 duck.loadCookies(cookies)
